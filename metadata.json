@@ -1,5 +1,5 @@
 {
   "name": "Dictation Master",
-  "description": "A local-first offline web application for video dictation practice. Users can load local video and subtitle files to practice listening and writing with sentence-looping and instant feedback.",
+  "description": "A local-first offline web application for video and audio dictation practice. Users can load local media and subtitle files to practice listening and writing with sentence-looping and instant feedback.",
   "requestFramePermissions": []
 }

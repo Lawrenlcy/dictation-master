@@ -13,11 +13,14 @@ export interface BiCue {
   zh?: string;
 }
 
+export type MediaType = 'video' | 'audio';
+
 export interface ProjectData {
   videoFile: File | null;
   enSubtitleFile: File | null;
   zhSubtitleFile: File | null;
   videoUrl: string | null;
+  mediaType: MediaType;
   cues: BiCue[];
   title: string;
 }
